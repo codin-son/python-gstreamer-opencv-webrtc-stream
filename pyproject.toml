@@ -1,0 +1,14 @@
+[project]
+name = "test-ipcam-stream"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "aiohttp>=3.12.13",
+    "aiortc>=1.13.0",
+    "opencv-python",
+]
+
+[tool.uv.sources]
+opencv-python = { path = "opencv_python-4.11.0+2606a60-cp310-cp310-linux_x86_64.whl" }
