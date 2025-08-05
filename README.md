@@ -1,4 +1,4 @@
-# WebRTC Video Stream Server
+# Python gstreamer opencv WebRTC Video Stream Server
 
 This project implements a WebRTC server for streaming video from an RTSP source (or webcam) using Python, `aiortc`, and OpenCV with GStreamer support. The server handles WebRTC peer connections and streams video frames to connected clients.
 
