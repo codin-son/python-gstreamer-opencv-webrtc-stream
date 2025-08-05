@@ -158,7 +158,3 @@ Below is a flowchart illustrating the high-level workflow of the WebRTC video st
 
 - **OpenCV Import Errors**: Verify that OpenCV is built with GStreamer support and linked to the correct Python version.
 - **WebRTC Connection Issues**: Ensure the client sends a valid SDP offer and that the network allows WebRTC traffic (ICE candidates, STUN/TURN if needed).
-
-## License
-
-This project is licensed under the MIT License.
