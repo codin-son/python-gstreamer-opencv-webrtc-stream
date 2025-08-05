@@ -4,7 +4,7 @@ This project implements a WebRTC server for streaming video from an RTSP source 
 
 ## Prerequisites
 
-- **Operating System**: Ubuntu 20.04 (recommended for compatibility with GStreamer and OpenCV)
+- **Operating System**: Ubuntu 20++ (recommended for compatibility with GStreamer and OpenCV) or arch linux(i dont know which version but it work in my pc)
 - **Python Version**: 3.10
 - **Package Manager**: `uv` (recommended for managing Python dependencies)
 - **OpenCV**: Custom-built with GStreamer support enabled
