@@ -63,6 +63,7 @@ dependencies = [
 
 ### 5. Build OpenCV with GStreamer Support (or use provided opencv)
 
+Use uv with python version 3.10
 To enable GStreamer support in OpenCV, build OpenCV from source using the `opencv-python` repository:
 
 1. Clone the `opencv-python` repository:
@@ -81,13 +82,13 @@ export CMAKE_ARGS="-DWITH_GSTREAMER=ON"
 3. Upgrade `pip` and install `wheel`:
 
 ```bash
-pip install --upgrade pip wheel
+uv pip install --upgrade pip wheel
 ```
 
 4. Build the OpenCV wheel (this may take 5 minutes to over 2 hours depending on your hardware):
 
 ```bash
-pip wheel . --verbose
+uv build --wheel
 ```
 
 5. Install the generated wheel (it may be in the `dist/` directory):
